@@ -1,0 +1,76 @@
+body{
+    background: rgb(182,239,245);
+    background: linear-gradient(180deg, rgba(182,239,245,1) 0%, rgba(88,153,177,1) 54%, rgba(59,97,143,1) 96%);
+    margin: 0;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8496D1;
+}
+
+.menu li{
+    float: left;
+    font-size: 20px;
+    }
+
+.menu li a{
+    display: block;
+    color: #111111;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active){
+    background-color: #9385C7;
+}
+
+.active {
+    background-color: #731e84;
+}
+
+.inicio {
+    font-size: 40px;
+}
+
+.foto {
+    border-radius: 100%;
+}
+
+figcaption {
+    display: none;
+    transition: all .5s;
+    font-size: 25px;
+}
+
+figure:hover > figcaption {
+    display: block;
+    transition: all .5s;
+}
+
+.sobre_mi {
+    background-color: aliceblue;
+    padding: 20px 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.icon {
+   background-color: antiquewhite;
+   padding: 14px 16px;
+}
+
+.proyectos {
+    background-color: antiquewhite;
+    padding: 50px 16px;
+}
+
+.contacto {
+    padding: 40px 20px;
+}
