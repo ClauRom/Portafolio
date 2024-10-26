@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Instrument+Serif:ital@0;1&family=Kalnia+Glaze:wght@100..700&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Instrument+Serif:ital@0;1&family=Kalnia+Glaze:wght@100..700&family=Pacifico&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Courgette&family=Instrument+Serif:ital@0;1&family=Kalnia+Glaze:wght@100..700&family=Khand:wght@300;400;500;600;700&family=Pacifico&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 body{
     background: rgb(182,239,245);
@@ -44,6 +45,7 @@ body{
 /*Estilos de Presentación*/
 
 .inicio {
+    color: #43083c;
     font-size: 40px;
     display: flex;
     flex-direction: row;
@@ -134,14 +136,10 @@ h2 {
     justify-content: center;
 }
 
-.proyectos img{
-    margin: 10px 20px;
-}
-
 /*Diseño Gráfico*/
 
 .acordeon {
-    margin: 90px auto;
+    margin: 0 auto;
     color: #111111;
     padding: 45px 45px;
 }
@@ -153,6 +151,8 @@ h2 {
 
 .etiqueta p {
     font-size: 30px;
+    font-family: "Courgette", cursive;
+
 }
 
 .acordeon .etiqueta {
@@ -176,9 +176,18 @@ h2 {
 .acordeon .contenido {
     position: relative;
     height: 0;
-    width: 780px;
+    width: 1180px;
     overflow: hidden;
     transition: 0.5s;
+}
+
+.acordeon .contenido_dw {
+    position: relative;
+    height: 0;
+    width: 880px;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 5%;
 }
 
 .acordeon hr {
@@ -193,24 +202,16 @@ h2 {
     height: 850px;
 }
 
+.acordeon .contenedor.activa .contenido_dw {
+    height: 500px;
+}
+
 /*Estilos pdf*/
-/*
+
 .contenedor {
-    margin: 70px 185px;
-    display: block;
+    margin: 10px 175px;
 }
 
-.contenido {
-    position: relative;
-    padding: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-.contenido:hover {
-    background: #62DCDC;
-}
-*/
 /*Estilos para iconos de contacto*/
 
 .contacto {
