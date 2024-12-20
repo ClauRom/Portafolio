@@ -19,6 +19,7 @@ body{
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: italic;
+    padding: 1rem 4rem;
 }
 
 .menu li{
@@ -36,7 +37,7 @@ body{
 
 .menu li a:hover:not(.active){
     background-color: #9385C7;
-    padding: 1rem 48rem;
+    padding: 1rem 5rem;
 }
 
 .active {
@@ -52,7 +53,6 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 2rem 15rem;
 }
 
 .contacto_inicio  {
@@ -103,12 +103,12 @@ h2 {
 
 .titulo_2 {
     color: aliceblue;
-    padding: 1rem 48rem;
+    padding: 1rem 40rem;
 }
 
 /*Estilos para certificados*/
 .cursos {
-    padding: 2rem 48rem;
+    padding: 2rem 40rem;
 }
 
 .cert p{
@@ -124,7 +124,7 @@ h2 {
 
 .icon {
    background-color: antiquewhite;
-   padding: 1rem 48rem;
+   padding: 1rem 40rem;
    display: flex;
    justify-content: center;
 }
@@ -137,7 +137,7 @@ h2 {
 /*Diseño Web*/
 
 .acordeon-cuerpo {
-    padding: 1rem 48rem;
+    padding: 1rem 40rem;
     display: flex;
     justify-content: center;
 }
@@ -215,7 +215,7 @@ h2 {
 /*Estilos para iconos de contacto*/
 
 .contacto {
-    padding: 2rem 48rem;
+    padding: 2rem 40rem;
     display: flex;
     justify-content: center;
 }
