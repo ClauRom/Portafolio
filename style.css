@@ -36,7 +36,7 @@ body{
 
 .menu li a:hover:not(.active){
     background-color: #9385C7;
-    padding: 1rem 40rem;
+    padding: 1rem 5rem;
 }
 
 .active {
@@ -126,9 +126,12 @@ h2 {
 
 .icon {
    background-color: antiquewhite;
-   padding: 1rem 40rem;
+   padding: 2rem 5rem;
    display: flex;
+   flex-direction: row;
    justify-content: center;
+   align-items: start;
+   flex-wrap: wrap;
 }
 
 .icon img {
@@ -139,7 +142,7 @@ h2 {
 /*Diseño Web*/
 
 .acordeon-cuerpo {
-    padding: 1rem 40rem;
+    padding: 1rem 5rem;
     display: flex;
     justify-content: center;
 }
@@ -226,7 +229,7 @@ h2 {
 /*Estilos para iconos de contacto*/
 
 .contacto {
-    padding: 2rem 40rem;
+    padding: 2rem 5rem;
     display: flex;
     justify-content: center;
 }
