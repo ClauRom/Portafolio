@@ -107,6 +107,7 @@ h2 {
 }
 
 /*Estilos para certificados*/
+
 .cursos {
     padding: 3rem 2rem;
     display: flex;
@@ -155,10 +156,6 @@ h2 {
     font-family: "Courgette", cursive;
 }
 
-embed {
-    height: 45rem;
-}
-
 .acordeon .etiqueta {
     position: relative;
     padding: 10px 0;
@@ -175,7 +172,7 @@ embed {
     transform: translateY(-50%);
 }
 
-/*Oculta el contenido*/
+/*Oculta el contenido dw*/
 
 .acordeon .contenido {
     position: relative;
@@ -200,7 +197,17 @@ embed {
     border: 1px solid rgb(152, 198, 208);
 }
 
-/*Muestra el contenido*/
+/*Oculta el contenido dg*/
+
+.acordeon .contenido_dg {
+    position: relative;
+    height: 0;
+    width: 880px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+/*Muestra el contenido dw*/
 
 .acordeon .contenedor.activa .contenido {
     height: 1050px;
@@ -210,10 +217,10 @@ embed {
     height: 500px;
 }
 
-/*Estilos pdf*/
+/*Muestra el contenido dg*/
 
-.contenedor {
-    margin: 10px 175px;
+.acordeon .contenedor.activa .contenido_dg {
+    height: 500px;
 }
 
 /*Estilos para iconos de contacto*/
