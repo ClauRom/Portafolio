@@ -153,7 +153,10 @@ h2 {
 .etiqueta p {
     font-size: 30px;
     font-family: "Courgette", cursive;
+}
 
+embed {
+    height: 45rem;
 }
 
 .acordeon .etiqueta {
