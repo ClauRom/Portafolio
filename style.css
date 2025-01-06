@@ -36,7 +36,7 @@ body{
 
 .menu li a:hover:not(.active){
     background-color: #9385C7;
-    padding: 1rem 2rem;
+    padding: 1rem 15rem;
 }
 
 .active {
@@ -109,7 +109,7 @@ h2 {
 /*Estilos para certificados*/
 
 .cursos {
-    padding: 2rem 11rem;
+    padding: 2rem 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
