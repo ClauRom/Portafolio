@@ -36,7 +36,7 @@ body{
 
 .menu li a:hover:not(.active){
     background-color: #9385C7;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
 }
 
 .active {
@@ -52,7 +52,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 2rem 15rem;
+    margin: 2rem 2rem;
 }
 
 .contacto_inicio  {
@@ -82,7 +82,7 @@ figure:hover > figcaption {
 
 .sobre_mi {
     background-color: aliceblue;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     font-size: 20px;
     font-family: "Roboto Serif", serif;
     text-align: justify;
@@ -103,7 +103,7 @@ h2 {
 
 .titulo_2 {
     color: aliceblue;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
 }
 
 /*Estilos para certificados*/
@@ -126,7 +126,7 @@ h2 {
 
 .icon {
    background-color: antiquewhite;
-   padding: 2rem 5rem;
+   padding: 2rem 2rem;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -142,7 +142,7 @@ h2 {
 /*Diseño Web*/
 
 .acordeon-cuerpo {
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: center;
 }
@@ -229,7 +229,7 @@ h2 {
 /*Estilos para iconos de contacto*/
 
 .contacto {
-    padding: 2rem 5rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: center;
 }
