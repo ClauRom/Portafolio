@@ -109,7 +109,7 @@ h2 {
 /*Estilos para certificados*/
 
 .cursos {
-    padding: 3rem 19rem;
+    padding: 3rem 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -118,7 +118,7 @@ h2 {
 }
 
 .cert img {
-    margin: 10px 30px;
+    margin: 10px 10px;
     height: 17rem;
 }
 
