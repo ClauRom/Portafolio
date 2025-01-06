@@ -142,7 +142,7 @@ h2 {
 /*Diseño Web*/
 
 .acordeon-cuerpo {
-    padding: 4rem 6rem;
+    padding: 0 2rem;
     display: flex;
     justify-content: center;
 }
