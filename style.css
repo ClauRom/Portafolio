@@ -52,7 +52,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 2rem 2rem;
+    margin: 2rem 15rem;
 }
 
 .contacto_inicio  {
@@ -109,7 +109,7 @@ h2 {
 /*Estilos para certificados*/
 
 .cursos {
-    padding: 3rem 2rem;
+    padding: 3rem 19rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,7 +126,7 @@ h2 {
 
 .icon {
    background-color: antiquewhite;
-   padding: 2rem 2rem;
+   padding: 2rem 4rem;
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -142,7 +142,7 @@ h2 {
 /*Diseño Web*/
 
 .acordeon-cuerpo {
-    padding: 0 2rem;
+    padding: 1rem 29rem;
     display: flex;
     justify-content: center;
 }
