@@ -109,7 +109,7 @@ h2 {
 /*Estilos para certificados*/
 
 .cursos {
-    padding: 2rem 10rem;
+    padding: 2rem 15rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -120,6 +120,10 @@ h2 {
 .cert img {
     margin: 10px 4px;
     height: 17rem;
+}
+
+.slider {
+    padding: 2rem 15rem;
 }
 
 /*Estilos de Skills iconos*/
@@ -229,7 +233,7 @@ h2 {
 /*Estilos para iconos de contacto*/
 
 .contacto {
-    padding: 2rem 29rem;
+    padding: 2rem 2rem;
     display: flex;
     justify-content: center;
 }
