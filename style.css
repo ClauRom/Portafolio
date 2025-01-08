@@ -176,6 +176,10 @@ h2 {
 
 /*Oculta el contenido dw*/
 
+.contenido_dw img{
+    height: 25rem;
+}
+
 .acordeon .contenido {
     position: relative;
     height: 0;
@@ -190,7 +194,6 @@ h2 {
     width: 880px;
     overflow: hidden;
     transition: 0.5s;
-    border-radius: 5%;
 }
 
 .acordeon hr {
@@ -217,7 +220,7 @@ h2 {
 }
 
 .acordeon .contenedor.activa .contenido_dw {
-    height: 500px;
+    height: 430px;
 }
 
 /*Muestra el contenido dg*/
