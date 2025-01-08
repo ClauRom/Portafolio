@@ -197,6 +197,7 @@ h2 {
     width: 100;
     margin-left: 0;
     border: 1px solid rgb(152, 198, 208);
+    flex-wrap: wrap;
 }
 
 /*Oculta el contenido dg*/
