@@ -146,11 +146,6 @@ h2 {
     justify-content:center;
 }
 
-.nota {
-    font-size: 20px;
-    color: #eccbfe;
-}
-
 /*Diseño Gráfico*/
 
 .etiqueta p {
@@ -178,6 +173,7 @@ h2 {
 
 .contenido_dw img{
     height: 25rem;
+    border-radius: 5%;
 }
 
 .acordeon .contenido {
