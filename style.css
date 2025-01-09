@@ -36,7 +36,7 @@ body{
 
 .menu li a:hover:not(.active){
     background-color: #9385C7;
-    padding: 1rem 15rem;
+    padding: 1rem 1rem;
 }
 
 .active {
