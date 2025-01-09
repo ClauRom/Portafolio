@@ -24,7 +24,7 @@ body{
 .menu li{
     float: left;
     font-size: 25px;
-    }
+}
 
 .menu li a{
     display: block;
@@ -141,9 +141,9 @@ h2 {
 /*Diseño Web*/
 
 .acordeon-cuerpo {
-    padding: 1rem 2rem;
+    padding: 1rem 29rem;
     display: flex;
-    justify-content:end;
+    justify-content:center;
 }
 
 .nota {
